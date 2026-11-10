@@ -1,4 +1,5 @@
-# 🛡️ ExeScan v2.2 — by SilentGhostExe1
+# 🛡️ ExeScan v2.3 — by SilentGhostExe1
+New in v2.3: UDP scanning, port presets, scan history, ISP info, fixed Nuclei
 
 [Python](https://img.shields.io/badge/Python-3.11+-blue)
 [Platform](https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20Windows-green)
@@ -32,7 +33,7 @@ Built in Termux. Tested on Android. Made to be fast, clean and deadly accurate.
 bash
 git clone https://github.com/SilentGhostExe1/exescan.git
 cd exescan
-python3 exescan_v2.2.py
+python3 exescan_v2.3.py
 
 
 No install. No setup. Just clone and run.
@@ -41,10 +42,10 @@ No install. No setup. Just clone and run.
 
 bash
 Scan a file
-python3 exescan_v2.2.py /path/to/file.exe
+python3 exescan_v2.3.py /path/to/file.exe
 
 Example
-python3 exescan_v2.2.py sample.exe
+python3 exescan_v2.3.py sample.exe
 
 
 ExeScan will output:
@@ -64,7 +65,7 @@ ExeScan was built with one mindset: **Know your target before you trust it.**
 
 
 exescan/
-├── exescan_v2.2.py   # Main Engine - v2.2 Stable
+├── exescan_v2.3.py   # Main Engine - v2.3 Stable
 ├── README.md         # Documentation
 └── LICENSE           # MIT License
 
@@ -85,7 +86,7 @@ Do NOT use this tool to analyze files you do not have permission to analyze, or 
 
 ## 🤝 Contribute
 
-Found a bug? Have an idea for v2.3?
+Found a bug? Have an idea for v2.4?
 Open an Issue or a Pull Request. All contributions are welcome.
 
 ## ⭐ Support
@@ -94,5 +95,5 @@ If you like ExeScan, leave a **⭐ STAR** on this repo.
 It helps a young developer from Dominican Republic keep building.
 
 ---
-**Built by SilentGhostExe1 | ExeScan v2.2**
+**Built by SilentGhostExe1 | ExeScan v2.3**
 **Stay Ghost. Stay Smart. Stay Legal.**
